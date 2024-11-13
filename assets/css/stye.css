@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(157, 197, 195);
+    margin: 0;
+    padding: 300px;
+  }
+  
+  #todo {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  .inserimento {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  #input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  
+  #taskButton {
+    padding: 8px 15px;
+    margin-left: 5px;
+    background-color: green;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #taskButton:hover {
+    background-color: rgb(35, 161, 35);
+  }
+  
+  #tasksList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: rgb(214, 227, 218);
+    border-radius: 5px;
+  }
+  
+  .task.click label {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .rimuovi {
+    margin-left: 70%;
+    width: 100px;
+    top: 8px;
+    background-color: rgb(130, 29, 29);
+    color: white;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .rimuovi:hover {
+    background-color: rgb(187, 57, 57);
+  }
+  
